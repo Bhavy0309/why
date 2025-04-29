@@ -24,4 +24,11 @@ arr.forEach(button => {
         input.value = string;
         
         }
+
+        document.addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        console.log("Enter key was pressed!");
+        event.preventDefault(); // Prevent default action if needed
+    }
+});
 })})
