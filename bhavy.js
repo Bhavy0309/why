@@ -8,6 +8,7 @@ arr.forEach(button => {
         if(e.target.innerHTML == '='){
             string = eval(string);
             input.value = string;
+            console.log(string + " key was pressed!");
     
         }
         else if(e.target.innerHTML == 'AC'){
