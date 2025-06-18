@@ -3,16 +3,16 @@
     box-shadow: 50cm;
     margin: 0;
     padding: 5px;
+    text-decoration: none;
 }
 .do{
-    color: red;
-    box-shadow: 50cm;
-    padding: 20px;
+    color: white;
+  
 }
 
 .sss {
-    color: red;
-    padding: 50px;
-    border-radius: 50px;
+    color: white;
+   
+    
     text-decoration: none;
 }
